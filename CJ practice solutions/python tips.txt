@@ -1,0 +1,16 @@
+Python Tips
+-----------------------------------------------
+
+word.strip() #removes '\n' from word
+
+lis[::-1] #reverse a list or string (if lis is of type string)
+
+f = open("file.in","r")
+o = open("file.out","w")
+
+str(f.readline()) or int(f.readline()) #to convert it to be useful
+
+o.write(x)
+
+f.close()
+o.close()
