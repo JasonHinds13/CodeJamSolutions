@@ -6,8 +6,8 @@ o = open("small-output.out","w")
 To solve this problem we look for a combination of '+-' in the string
 If we find one we flip the elements from the first element to the plus we found
 we do this until we can't get '+-' anymore.
-we then look for the combination '-+' and from there flip all elements from
-the first to the '-' inclusive and we should arrive at a full happy stack.
+then then look for the combination '-+' and from there flip all elements from
+the first to the '-' inclusive and we should arrive at a full happy stack (astack with only '+'s).
 '''
 
 ans = []
