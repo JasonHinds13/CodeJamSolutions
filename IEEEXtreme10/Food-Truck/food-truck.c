@@ -4,9 +4,9 @@
 #include <stdlib.h>
 
 #define RADIUS 6378.137
-#define M_PI 3.14159265359
+#define PI 3.14159265359
 #define MAX_SIZE 50000
-#define ToRadians(point) (point * M_PI / 180.0)
+#define ToRadians(point) (point * PI / 180.0)
 
 typedef struct person{
     char date[10];
@@ -49,7 +49,7 @@ int in_arr(long int arr[], int size, long int val){
     return 1;
 }
 
-char* conv_time(char time[]){
+int conv_time(char time[]){
     char new[5];
     
     new[0] = time[0];
